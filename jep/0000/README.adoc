@@ -1,4 +1,4 @@
-= JEP-201: Jenkins Configuration as Code
+= JEP-0000: Configuration as Code YAML Schema
 :toc: preamble
 :toclevels: 3
 ifdef::env-github[]
@@ -13,30 +13,23 @@ endif::[]
 [cols="2"]
 |===
 | JEP
-| 201
+| 0000
 
 | Title
-| Jenkins Configuration as Code
+| Configuration as Code YAML Schema
 
 | Sponsor
 | https://github.com/ewelinawilkosz2[Ewelina Wilkosz] from https://github.com/praqma[Praqma]
 
 | Status
 | Draft :speech_balloon:
-//| Rejected :no_entry:
-//| Withdrawn :hand:
-//| Final :lock:
-//| Replaced :dagger:
-//| Active :smile:
 
 | Type
 | Standards
 
 | Created
-| 2017-11-07
-//
-//
-// Uncomment if there is an associated placeholder JIRA issue.
+| 2017-06-07
+
 | JIRA
 | https://issues.jenkins-ci.org/browse/JENKINS-31094[JENKINS-31094]
 //
@@ -50,10 +43,10 @@ endif::[]
 //| Discussions-To
 //| :bulb: Link to where discussion and final status announcement will occur :bulb:
 //
-//
-// Uncomment if this JEP depends on one or more other JEPs.
-//| Requires
-//| :bulb: JEP-NUMBER, JEP-NUMBER... :bulb:
+
+| Requires
+| JEP-201
+
 //
 //
 // Uncomment and fill if this JEP is rendered obsolete by a later JEP
