@@ -924,7 +924,7 @@ Once the JEP is ready for the repository, a JEP editor will:
   may also be a special/joke number, like 666 or 3141).
 . Update the folder number to match the JEP number
 . Update the JEP number in the document.
-. Update the JEP status using the `./set-jep-status <JEP number> draft` command (script is located in the root)
+. Update the JEP status using the `./scripts/set-jep-status <JEP number> draft` command (script is located in the root)
 . Commit all changes and push them to the branch in the PR
 . "Squash and merge" the PR into the `master` branch.
 
@@ -935,8 +935,8 @@ from the appropriate permission groups on the JEP repository.
 When a JEP includes a new Sponsor or BDFL Delegate an editor will add that
 person to the "JEP Sponsors" or "JEP BDFL Delegates" GitHub group respectively.
 When someone is no longer an active Sponsor or BDFL Delegate,
-a JEP editor will remove them from the permission group.  
-Editors will clean up the the permission groups from time to time 
+a JEP editor will remove them from the permission group.
+Editors will clean up the the permission groups from time to time
 as they see the need or are asked to do so.
 
 
